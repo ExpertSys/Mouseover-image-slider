@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Verdana", sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 1200px;
+}
+
+.navigation{
+    position: relative;
+    width: 100%;
+}
+
+.navigation .container{
+    width: 100%;
+    height:62px auto;
+    background: linear-gradient(to bottom, #eeeeee 0%,#fefefe 100%);
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.navigation .countries{
+    float: right;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+
+.navigation .countries:hover{
+    cursor: pointer;
+}
+
+.navigation .countries span{
+    margin-right: 5px;
+}
+
+.navigation .container ul{
+    margin: 0 auto;
+    margin-left: 180px;
+}
+
+.navigation .container ul li{
+    list-style-type: none;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 0 30px;
+    font-size: 12px;
+    line-height: 62px;
+    position: relative;
+    color:#3d3d3d;
+    padding-bottom: 5px;
+    transition: 0.2s ease-out;
+}
+
+.navigation .container ul li:hover{
+    box-shadow: -1px 0px 1px 0px #eeeeee, 1px 0px 1px 0px #eeeeee;
+    opacity: 0.5;
+    margin: 0 1px;
+    transition: 200ms ease-out;
+    cursor: pointer;
+}
+
+.navigation .container ul li:first-child:after{
+    content: 'News & Updates';
+    position: absolute;
+    left: 2px;
+    bottom: 0;
+    top: 20px;
+    font-size: 10px;
+    color:#f28787;
+}
+
+.navigation .container ul li:nth-child(2):after{
+    content: 'Teams & Ladders';
+    position: absolute;
+    left: 38px;
+    bottom: 0;
+    top: 20px;
+    font-size: 8px;
+    color:#c1c1c1;
+}
+
+.navigation .container ul li:nth-child(3):after{
+    content: 'Videos & Replays';
+    position: absolute;
+    left: 13px;
+    bottom: 0;
+    top: 20px;
+    font-size: 8px;
+    color:#c1c1c1;
+}
+
+.navigation .container ul li:nth-child(4):after{
+    content: 'Official & Private';
+    position: absolute;
+    left: 20px;
+    bottom: 0;
+    top: 20px;
+    font-size: 8px;
+    color:#c1c1c1;
+}
+
+.navigation .container ul li:nth-child(5):after{
+    content: 'Match Schedule';
+    position: absolute;
+    left: 24px;
+    bottom: 0;
+    top: 20px;
+    font-size: 8px;
+    color:#c1c1c1;
+}
+
+.navigation .container ul li:nth-child(6):after{
+    content: 'Learn More';
+    position: absolute;
+    left: 25px;
+    bottom: 0;
+    top: 20px;
+    font-size: 8px;
+    color:#c1c1c1;
+}
+
+.navigation .container ul li:nth-child(7):after{
+    content: 'Reach Us';
+    position: absolute;
+    left: 37px;
+    bottom: 0;
+    top: 20px;
+    font-size: 8px;
+    color:#c1c1c1;
+}
+
+.header{
+    width: 100%;
+    height: 1000px;
+    position: relative;
+}
+
+.header .container{
+    position: relative;
+    width: auto;
+    height: 100%;
+    background: url("../images/bg.png");
+    background-position: center 10%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+}
+
+.header .container .logo{
+    position: relative;
+    margin-top: 120px;
+    display: inline-block;
+    margin-bottom: 100px;
+}
+
+.header .slider{
+    position: relative;
+    text-align: center;
+    width: 900px;
+    height: 555px;
+    margin: 0 auto;
+}
+
+.header .slider .image-large .large-info{
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    width: 900px;
+    height: 220px;
+}
+
+.header .slider .image-large .large-info img{
+    border-left: 20px solid #FFF;
+}
+
+.large-img-text-1{
+    position: absolute;
+    left: 0;
+    top: 80%;
+    width: 80%;
+    height: 150px;
+    background:#FFF;
+    opacity: 0.9;
+}
+
+.large-img-text-1 .column1{
+    position: relative;
+    margin-left: 30px;
+    float: left;
+    padding-right: 20px;
+}
+
+.large-img-text-1 .column2{
+    position: relative;
+    float: left;
+    padding-top: 40px;
+}
+
+.large-img-text-1 .column2 .top{
+    text-transform: uppercase;
+    font-size: 20px;
+    position: relative;
+    float: left;
+    display: block;
+}
+
+.red{
+    color:#d2110d;
+}
+
+.large-img-text-1 .column2 .memo{
+    display: block;
+    clear:both;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-top: 1px solid #333;
+    padding-right: 58px;
+    color:rgba(51,51,51);
+}
+
+.large-img-text-1 .column2 .img-txt{
+    float: left;
+    font-size: 12px;
+    position: relative;
+    top: 5px;
+    color:#a1a1a1;
+}
+
+.slider-progress{
+    width: 0%;
+    height: 6px;
+    background:red;
+    float: left;
+    position: absolute;
+    left: 25px;
+    margin-top: -10px;
+}
+
+.small-images{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.small-images .small-img{
+    float: left;
+    margin-left: 5px;
+    position: relative;
+    left: 22px;
+    opacity: 0.4;
+    transition: opacity 350ms ease;
+}
+
+.small-images .small-img:hover{
+    opacity: 1;
+    cursor: pointer;
+    transition: opacity 350ms ease;
+}
