@@ -3,7 +3,6 @@ $(document).ready(function(){
     var progressBar = $(".slider-progress");
 
     $(".small-images img").hover(function(){
-    $("#img-1").css("opacity", "0.4;");
     var currImage = $('.bigImg').attr("src");
     var imgPath = "./images/" + $(this).attr("src");
     var noRefresh = imgPath.substr(9);
